@@ -3,7 +3,7 @@ package top.hcode.hoj.crawler.language;
 import top.hcode.hoj.pojo.entity.problem.Language;
 import top.hcode.hoj.utils.Constants;
 
-;import java.util.List;
+import java.util.List;
 
 /**
  * @Author: Himit_ZH
@@ -31,7 +31,7 @@ public class LanguageContext {
         }
     }
 
-    public List<Language> buildLanguageList(){
+    public List<Language> buildLanguageList() {
         return languageStrategy.buildLanguageList();
     }
 
